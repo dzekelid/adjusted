@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Adjusted
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,10 +19,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuoteAdjusted
-  tags: Historical, Quote, Adjusted
+  tags: Market Data,Historical, Quote, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquoteadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquoteadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Quotes Adjusted
   x-api-slug: xignite-historical
   description: Returns a quote as of a historical date. This includes split and dividends
@@ -30,10 +30,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesAdjusted
-  tags: Historical, Quotes, Adjusted
+  tags: Market Data,Historical, Quotes, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Monthly Quotes Range Adjusted
   x-api-slug: xignite-historical
   description: This operation returns end of month quotes for a US equity. This includes
@@ -41,10 +41,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalMonthlyQuotesRangeAdjusted
-  tags: Historical, Monthly, Quotes, Range, Adjusted
+  tags: Market Data,Historical, Monthly, Quotes, Range, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalmonthlyquotesrangeadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Quotes As Of Adjusted
   x-api-slug: xignite-historical
   description: This operation returns a range of quotes for a security. This includes
@@ -52,10 +52,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesAsOfAdjusted
-  tags: Historical, Quotes, As, Adjusted
+  tags: Market Data,Historical, Quotes, As, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesasofadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesasofadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Quotes Range Adjusted
   x-api-slug: xignite-historical
   description: This operation returns a complete range of stock quotes for a US equity.
@@ -63,10 +63,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuotesRangeAdjusted
-  tags: Historical, Quotes, Range, Adjusted
+  tags: Market Data,Historical, Quotes, Range, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesrangeadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquotesrangeadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Weekly Quotes Range Adjusted
   x-api-slug: xignite-historical
   description: This operation returns end of week quotes for a US equity. This includes
@@ -74,10 +74,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalWeeklyQuotesRangeAdjusted
-  tags: Historical, Weekly, Quotes, Range, Adjusted
+  tags: Market Data,Historical, Weekly, Quotes, Range, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalweeklyquotesrangeadjusted-get-openapi.md
 - name: Xignite Historical Get Historical Quarterly Quotes Range Adjusted
   x-api-slug: xignite-historical
   description: This operation returns end of quarter quotes for a US equity. This
@@ -85,10 +85,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetHistoricalQuarterlyQuotesRangeAdjusted
-  tags: Historical, Quarterly, Quotes, Range, Adjusted
+  tags: Market Data,Historical, Quarterly, Quotes, Range, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/gethistoricalquarterlyquotesrangeadjusted-get-openapi.md
 - name: Xignite Historical Get Last Closing Price Adjusted
   x-api-slug: xignite-historical
   description: Returns last closing price for a security. This include the splits
@@ -96,10 +96,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPriceAdjusted
-  tags: Last, Closing, Price, Adjusted
+  tags: Market Data,Last, Closing, Price, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpriceadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpriceadjusted-get-openapi.md
 - name: Xignite Historical Get Last Closing Prices Adjusted
   x-api-slug: xignite-historical
   description: Returns last closing price for a collection of securities.This include
@@ -107,10 +107,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPricesAdjusted
-  tags: Last, Closing, Prices, Adjusted
+  tags: Market Data,Last, Closing, Prices, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpricesadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpricesadjusted-get-openapi.md
 - name: Xignite Historical Get Last Closing Prices Ordered Adjusted
   x-api-slug: xignite-historical
   description: Returns last closing price for a collection of securities.This include
@@ -118,10 +118,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPricesOrderedAdjusted
-  tags: Last, Closing, Prices, Ordered, Adjusted
+  tags: Market Data,Last, Closing, Prices, Ordered, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpricesorderedadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/getlastclosingpricesorderedadjusted-get-openapi.md
 - name: Xignite Historical
   x-api-slug: xignite-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -134,7 +134,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/adjusted/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -194,6 +194,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
